@@ -15,7 +15,7 @@ FetchContent_Declare(
 	DOWNLOAD_COMMAND
 		cd ${FETCHCONTENT_BASE_DIR}/dawn-src &&
 		git init &&
-		git fetch --depth=1 https://dawn.googlesource.com/dawn chromium/5869 &&
+		git fetch --depth=1  https://github.com/svuolli/dawn.git sdl-webgpu-0 &&
 		git reset --hard FETCH_HEAD
 )
 
